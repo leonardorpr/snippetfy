@@ -278,10 +278,11 @@ input:focus, textarea:focus {
 
 .wrapper .snippet-content form button {
   color: #F57777;
-  font-size: 14px;
+  font-size: 16px;
   border: 0;
   margin-left: 10px;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .wrapper .snippet-content h1 {
