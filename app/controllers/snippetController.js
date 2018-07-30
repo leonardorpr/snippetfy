@@ -61,4 +61,15 @@ module.exports = {
       return next(err);
     }
   },
+
+  async destroy(req, res, next) {
+    try {
+      await Snippet.destroy({ where: { id: req.params.id } });
+
+      req.flash('success', 'Snippet deletado com sucesso!');
+      return res.redirect(`/app/categories/${req.params.categoryId}`);
+    } catch (err) {
+      return next(err);
+    }
+  }
 };
