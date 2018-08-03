@@ -1,5 +1,5 @@
 # Snippetfy
-> Snippetfy is an application designed to store code snippets. Built to deepen expertise in NodeJS, Express, Nunjucks, Sequelize and MVC.
+> Snippetfy is an application designed to store code snippets. Created using NodeJS, Express, Nunjucks and Sequelize.
 
 # Get Started
 run the commands in the following order:
